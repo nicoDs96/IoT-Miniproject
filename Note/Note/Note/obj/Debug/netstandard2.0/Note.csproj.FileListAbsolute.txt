@@ -1,0 +1,5 @@
+C:\Users\nds\source\repos\Note\Note\Note\obj\Debug\netstandard2.0\Note.csprojAssemblyReference.cache
+C:\Users\nds\source\repos\Note\Note\Note\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\nds\source\repos\Note\Note\Note\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\nds\source\repos\Note\Note\Note\obj\Debug\netstandard2.0\Note.AssemblyInfoInputs.cache
+C:\Users\nds\source\repos\Note\Note\Note\obj\Debug\netstandard2.0\Note.AssemblyInfo.cs
