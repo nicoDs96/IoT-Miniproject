@@ -15,29 +15,26 @@ radio signal and the sailors are bluetooth-equipped devices like smartphones (re
 [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy), so 
 batteries can last at least five years on average still guaranteeing enough data rate for many IoT applications.
 
-#Bluetooth (Classic) vs Bluetooth low energy:
+# Bluetooth (Classic) vs Bluetooth low energy:
 
-In Classic (not BLE) Bluetooth we have these features:
-**Pro**
-    * It can handle lot of data consuming more power
-
-**Cons**
-
-   * Low data transfer rate.
-   * Short range of operation
-   * Classic Bluetooth once initiated , it always in wake up mode even not in use raising power consumption.
-
-While Bluetooth Low Energy (BLE or Smart Bluetooth) improved Bluetooth in small data packet transmission situation like this:
-**Pro**
-
-    * High data transfer rate
-    * Medium range of operation
-    * BLE goes to sleep once not in use and wakes up once data/information transfer happens.
-    * Low power consumption
+In Classic (not BLE) Bluetooth we have these features <br>
+**Pros**
+* It can handle lot of data consuming more power
 
 **Cons**
+* Low data transfer rate.
+* Short range of operation
+* Classic Bluetooth once initiated , it always in wake up mode even not in use raising power consumption.
 
-    * Handle very less data
+While Bluetooth Low Energy (BLE or Smart Bluetooth) improved Bluetooth in small data packet transmission situation like this:<br>
+**Pros**
+* High data transfer rate
+* Medium range of operation
+* BLE goes to sleep once not in use and wakes up once data/information transfer happens.
+* Low power consumption
+
+**Cons**
+* Handle very less data
 
 ## BLE Beacons vs GPS sensors
 
@@ -49,11 +46,11 @@ First thing is to place beacons in specific high point of the room (the higher t
 building penetration resistance). So you need to choose a right spot depending on how much distance range you need to cover. Once beacons
 are set you will only need an app with active Bluetooth connection receiving packets containing:
 
-   * Beacon SN
-   * Major ID
-   * Minor ID
-   * Sensor Data (temperature, accelerometer…)
-   * Device Data (battery status, system info …)
+* Beacon SN
+* Major ID
+* Minor ID
+* Sensor Data (temperature, accelerometer…)
+* Device Data (battery status, system info …)
 
 The first three fields help the receiver to distinguish between different beacons, sensor data are used in your application and device data 
 are useful for debugging and monitoring purpose.
